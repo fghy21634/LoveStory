@@ -1,0 +1,245 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+.desktop {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-family: 'Ballet', cursive;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.logo a {
+    color: palevioletred;
+}
+
+.logo a:hover{
+    font-weight: 900;
+    color: pink;
+    text-shadow: 1px 1px 2px plum;
+}
+
+.menu {
+    width: 503px;
+    margin-right: 3px;
+}
+
+.menu_bar {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Caveat', cursive;
+}
+
+.menu_bar li {
+    width: 100px;
+    text-align: center;
+}
+
+.menu_bar li a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: purple;
+}
+
+.menu_bar li a:hover{
+    font-style: italic;
+    text-shadow: 2px 2px yellow;
+    color: chocolate;
+}
+
+.banner_pic img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.index_need_area {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.index_left {
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+
+}
+
+#start {
+    position: relative;
+    margin-top: 14px;
+    margin-left: 98px;
+}
+
+#start a {
+    color: rgb(9, 136, 136);
+}
+
+#start img {
+    width: 45%;
+    position: absolute;
+    left: -18px;
+    bottom: -18px;
+    z-index: -1;
+}
+
+#start a:hover {
+    color: royalblue;
+    text-shadow: 0.1em 0.1em 0.2em silver;
+}
+
+#talking {
+    position: relative;
+    margin-left: 66px;
+}
+
+#talking a {
+    color: violet;
+}
+
+#talking img {
+    width: 40%;
+    position: absolute;
+    left: -25px;
+    bottom: -24px;
+    z-index: -1;
+}
+
+#talking a:hover {
+    color: royalblue;
+    text-shadow: 0.1em 0.1em 0.2em silver;
+}
+
+#together {
+    position: relative;
+    margin-bottom: 14px;
+    margin-left: 144px;
+}
+
+#together a {
+    color: tomato;
+}
+
+#together img {
+    width: 55%;
+    position: absolute;
+    left: -30px;
+    bottom: -26px;
+    z-index: -1;
+}
+
+#together a:hover {
+    color: royalblue;
+    text-shadow: 0.1em 0.1em 0.2em silver;
+}
+
+.index_right {
+    display: flex;
+    width: 43%;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.index_right img {
+    width: 70%;
+}
+
+.YY {
+    margin-top: 5%;
+}
+
+.YY a:hover{
+    background-color: tomato;
+}
+
+.elena {
+    margin-top: 35%;
+}
+
+.elena a:hover{
+    background-color: tomato;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.auth p {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
