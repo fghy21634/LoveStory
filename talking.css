@@ -134,7 +134,7 @@ a {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 23px;
     color: rgb(9, 136, 30);
-    font-weight: 750;
+    font-weight: 800;
     letter-spacing: 1px;
     text-decoration: underline;
 }
@@ -146,7 +146,7 @@ a {
     margin-right: 40px;
     font-family: 'Microsoft JhengHei';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 450;
     line-height: 28px;
 }
 
@@ -216,7 +216,7 @@ a {
     font-weight: 280;
 }
 
-.With_Kay_conversation h5 {
+#during_time{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 65px;
