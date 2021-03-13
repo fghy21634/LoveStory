@@ -129,12 +129,35 @@ a {
 .talking h2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 26px;
+    margin-right: 26px;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     color: rgb(9, 136, 30);
     font-weight: 750;
     letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.talking h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Microsoft JhengHei';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.talking h4 {
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    color: dimgray;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     text-decoration: underline;
 }
 
@@ -145,18 +168,129 @@ a {
     margin-right: 65px;
     line-height: 25px;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(7, 40, 53);
     font-weight: 280;
 }
 
-.coming_soon {
-    margin-top: 25px;
-    margin-left: 20px;
-    font-size: 20px;
+.With_Kay_conversation_time {
+    height: 25px;
+    line-height: 25px;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.With_Kay_conversation_time .line {
+    display: inline-block;
+    width: 35%;
+    border-top: 1px solid #ccc ;
+}
+
+.With_Kay_conversation_time .time {
+    text-align: center;
+    width: 50%;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    color: dimgray;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.With_Kay_conversation p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    color: slategray;
+    font-weight: 280;
+}
+
+.With_Kay_conversation h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 13px;
+    color: slategray;
+    font-weight: 900;
+}
+
+.border_top {
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    height: 1px;
+    border-top: solid dimgray 0.5px;
+}
+
+.talking h5 {
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 30px;
+    padding-left: 14px;
+    color: rgb(7, 40, 53);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.With_YY_conversation_time {
+    height: 25px;
+    line-height: 25px;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.With_YY_conversation_time .line {
+    display: inline-block;
+    width: 25%;
+    border-top: 1px solid #ccc ;
+}
+
+.With_YY_conversation_time .time {
+    text-align: center;
+    width: 50%;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    color: dimgray;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+#coming_soon {
+    width: 100%;
+    margin: 25px auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 60px;
     font-style: italic;
-    font-weight: 400;
-    line-height: 30px;
+    font-weight: 500;
+    line-height: 90px;
     color: brown;
     font-family: monospace;
 }
