@@ -162,6 +162,7 @@ a {
 }
 
 .talking p {
+    width: 68%;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 65px;
@@ -184,7 +185,7 @@ a {
 
 .With_Kay_conversation_time .line {
     display: inline-block;
-    width: 35%;
+    width: 37%;
     border-top: 1px solid #ccc ;
 }
 
@@ -206,8 +207,8 @@ a {
 .With_Kay_conversation p {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 48px;
+    margin-right: 48px;
     padding-left: 50px;
     line-height: 25px;
     font-family: 'Noto Sans TC', sans-serif;
@@ -235,7 +236,7 @@ a {
     margin-left: 65px;
     margin-right: 65px;
     height: 1px;
-    border-top: solid dimgray 0.5px;
+    border-top: solid #ccc 0.5px;
 }
 
 .talking h5 {
@@ -254,7 +255,7 @@ a {
 .With_YY_conversation_time {
     height: 25px;
     line-height: 25px;
-    width: 60%;
+    width: 76%;
     margin-top: 10px;
     margin-left: 65px;
     margin-right: 65px;
@@ -262,7 +263,7 @@ a {
 
 .With_YY_conversation_time .line {
     display: inline-block;
-    width: 25%;
+    width: 40%;
     border-top: 1px solid #ccc ;
 }
 
@@ -271,8 +272,8 @@ a {
     width: 50%;
     height: 1px;
     margin-top: 10px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 72px;
+    margin-right: 72px;
     color: dimgray;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 14px;
@@ -281,18 +282,61 @@ a {
     vertical-align: middle;
 }
 
+.With_YY_conversation p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 13px;
+    color: dimgray;
+    font-weight: 280;
+}
 
-#coming_soon {
-    width: 100%;
-    margin: 25px auto;
+#cannot_remember {
+    font-weight: 600;
+    font-size: 6px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: line-through;
+}
+
+#past {
+    color: rgb(145, 145, 145);
+}
+
+.Jan09_time p { 
+    padding-left: 15px;
+}
+
+#last {
+    margin-top: 50px;
+    font-weight: 150;
+    font-size: 10px;
+    color: coral;
+    line-height: 15px;
+}
+
+#okay {
+    font-weight: 350;
+    color: salmon;
+}
+
+#final {
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 150px;
     padding-right: 150px;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 90px;
-    color: brown;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 24px;
+    background-color: #ffdab9;
     font-family: monospace;
+    text-align: center;
 }
 
 .auth p {
